@@ -15,4 +15,3 @@ class Libro implements IPublicable {
         return "Libro: $this->titulo, Autor: " . $this->autor->getNombre() . " " . $this->autor->getApellido();
     }
 }
-?>

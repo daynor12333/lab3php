@@ -16,12 +16,11 @@ class Autor {
         return $this->apellido;
     }
 
-    public function setNombre(string $nombre) {
+    public function setNombre(string $nombre): void {
         $this->nombre = $nombre;
     }
 
-    public function setApellido(string $apellido) {
+    public function setApellido(string $apellido): void {
         $this->apellido = $apellido;
     }
 }
-?>
